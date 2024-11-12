@@ -13,7 +13,7 @@ namespace SistemaDeTarefas.Controllers
     {
         // Create a HTTP GET resquest for fetch all users in a List
         [HttpGet]
-        public ActionResult <List<User>> GetAllUsers() {
+        public ActionResult <List<UserModel>> GetAllUsers() {
             return Ok();
         }
     }
